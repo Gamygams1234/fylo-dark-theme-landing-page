@@ -1,0 +1,315 @@
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.max-width-540 {
+  max-width: 540px;
+  margin: 0 auto;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn-primary {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  background: linear-gradient(to right, #65e2d9, #339ecc);
+  border-radius: 2em;
+  border: 1px transparent solid;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  filter: brightness(1) contrast(150%);
+  border: 1px transparent solid;
+}
+
+header {
+  background-color: #1c2431;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .links a {
+  color: white;
+  margin-left: 12px;
+  text-decoration: none;
+  padding-bottom: 3px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+}
+header .container .links a:hover {
+  border-bottom: 2px solid white;
+}
+
+.cta {
+  background-color: #1c2431;
+  color: white;
+  background-image: url("../images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+.cta .container .max-width-540 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.cta .container .max-width-540 img {
+  width: 100%;
+  height: auto;
+}
+.cta .container .max-width-540 h2 {
+  line-height: 1.5;
+}
+.cta .container .max-width-540 p {
+  line-height: 1.5;
+}
+
+.grid {
+  background-color: #181f2a;
+  color: white;
+}
+.grid .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid .grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+.grid .grid-item h3 {
+  line-height: 1.5;
+}
+.grid .grid-item p {
+  line-height: 1.5;
+}
+
+.info-section {
+  background-color: #181f2a;
+  color: white;
+}
+.info-section .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.info-section .container img {
+  width: 100%;
+}
+.info-section .container .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: left;
+}
+.info-section .container .description h1 {
+  line-height: 1.5;
+}
+.info-section .container .description p {
+  line-height: 1.5;
+}
+.info-section .container .description a {
+  color: #65e2d9;
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #65e2d9;
+  transition: all 0.3s ease-in-out;
+}
+.info-section .container .description a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.testimonials {
+  background-color: #181f2a;
+  color: white;
+}
+.testimonials .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-image: url("../images/bg-quotes.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.testimonials .container .testimonial {
+  margin: 20px;
+  margin-top: 30px;
+  padding: 20px 20px;
+  background-color: #202a3c;
+  border-radius: 5px;
+}
+.testimonials .container .testimonial p {
+  line-height: 1.5;
+}
+.testimonials .container .testimonial .profile {
+  display: flex;
+}
+.testimonials .container .testimonial .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.testimonials .container .testimonial .profile .profile-info {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.email-form {
+  background-color: #181f2a;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+.email-form .box {
+  background-color: #202a3c;
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  top: 150px;
+}
+.email-form .box p {
+  line-height: 1.5;
+  width: 90%;
+}
+.email-form .box form {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 100%;
+}
+.email-form .box form input {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 2em;
+}
+.email-form .box form .invalid-email {
+  border-color: #ff4242;
+}
+.email-form .box #warning {
+  color: #ff4242;
+  text-align: left;
+  display: none;
+}
+
+footer {
+  background-color: #0b1523;
+  color: white;
+}
+footer .container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 200px;
+}
+footer .container .links {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+footer .container .links .link-group {
+  display: flex;
+  flex-direction: column;
+}
+footer .container .links .link-group a {
+  color: white;
+  text-decoration: none;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+footer .container .links .link-group a:hover {
+  font-weight: 700;
+}
+footer .container .links .link-group .icon-link {
+  display: flex;
+  line-height: 1.5;
+  align-items: flex-start;
+}
+footer .container .links .link-group .icon-link i {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+footer .container .links .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .container .links .social-links a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+footer .container .links .social-links a:hover {
+  color: #65e2d9;
+  border: 1px solid #65e2d9;
+}
+
+@media screen and (min-width: 768px) {
+  .cta {
+    background-image: url("../images/bg-curvy-desktop.svg");
+  }
+
+  .grid .container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .info-section .container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .info-section .container .description {
+    margin-left: 30px;
+  }
+
+  .testimonials .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .email-form .box form {
+    grid-template-columns: 65% 35%;
+  }
+  .email-form .box form .btn {
+    margin-left: 20px;
+  }
+
+  footer .container .links {
+    grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
+  }
+  footer .container .links .link-group {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
